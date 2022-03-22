@@ -18,8 +18,6 @@ Customer? CastedProspect = ContractService.ChangeProspectToCustomer(Prospect);
 
 Console.WriteLine(CastedProspect != null ? CastedProspect.CompanyName : "Prospect was not casted");
 
-Console.WriteLine(new DateTime());
+Console.WriteLine(DateTime.Now);
 
 Console.ReadLine();
-
-//test

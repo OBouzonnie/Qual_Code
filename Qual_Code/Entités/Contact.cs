@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Qual_Code.Entités
 {
-    internal class Contact
+    internal class Contact:BaseEntity
     {
-        public int Id { get; set; }
-
         public string Firstname { get; set; }
         
         public string Lastname { get; set; }

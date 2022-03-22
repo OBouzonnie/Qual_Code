@@ -5,7 +5,17 @@
       "ProjectGuid": "b1ad5d46-0762-4a68-b38e-8b5a34a45e76",
       "DisplayName": "Qual_Code",
       "ColorIndex": 0
+    },
+    "5cf93c45-4fe0-4490-9ff2-69dcc11999f1": {
+      "ProjectGuid": "5cf93c45-4fe0-4490-9ff2-69dcc11999f1",
+      "DisplayName": "TestProject",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

@@ -2,10 +2,8 @@
 
 namespace Qual_Code.Entités
 {
-	internal class Address
+	internal class Address:BaseEntity
 	{
-		public int Id { get; set; }
-
 		public string city { get; set; }
 
 		public string street { get; set; }

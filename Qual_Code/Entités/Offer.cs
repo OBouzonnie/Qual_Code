@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Qual_Code.Entités
 {
-    internal class Offer
+    internal class Offer:BaseEntity
     {
-        public int Id { get; set; }
-
         public string Name { get; set; }
 
         public double Amount { get; set; }

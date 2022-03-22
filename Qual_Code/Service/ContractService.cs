@@ -7,14 +7,14 @@ using Qual_Code.Entités;
 
 namespace Qual_Code.Service
 {
-    internal class ContractService
+    static internal class ContractService
     {
         public static Customer? ChangeProspectToCustomer(Prospect prospect)
         {
             List<Offer> offerList = prospect.Offers;
             Boolean HasOneApprovedOffer = false;
-            offerList.ForEach(offer => { if (offer.HasBeenApproved == true) HasOneApprovedOffer = true; });
-            if (HasOneApprovedOffer == true)
+            offerList.ForEach(offer => { if (offer.HasBeenApproved) HasOneApprovedOffer = true; });
+            if (HasOneApprovedOffer)
             {
                 Customer? CastedCustomer = (Customer)prospect;
                 return CastedCustomer;

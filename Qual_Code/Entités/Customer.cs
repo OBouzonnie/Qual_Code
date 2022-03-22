@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Qual_Code.Entités
 {
-    internal class Customer
+    internal class Customer:BaseEntity
     {
         public static int count { get; set; }
-
-        public int Id { get; set; }
 
         public string CompanyName { get; set; } //raison sociale
 
@@ -38,7 +36,7 @@ namespace Qual_Code.Entités
 
         public void Contacted()
         {
-            this.ContactDate = new DateTime(); //TODO utc
+            this.ContactDate = DateTime.Now;
         }
 
         public void AddOffer(Offer offer)

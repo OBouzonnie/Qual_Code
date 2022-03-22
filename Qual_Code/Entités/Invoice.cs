@@ -6,21 +6,19 @@ using System.Threading.Tasks;
 
 namespace Qual_Code.Entités
 {
-    internal class Invoice
+    internal class Invoice:BaseEntity
     {
-        public int Id { get; set; }
+        public double Amount { get; set; }
 
-        public double Amount { get; private set; }
+        public DateTime EmittedAt { get; set; }
 
-        public string EmittedAt { get; private set; }
+        public DateTime? PayedAt { get; set; }
 
-        public string? PayedAt { get; private set; }
+        public int Status { get; set; }
 
-        public int Status { get; private set; }
+        public Offer Offer { get; set; }
 
-        public Offer Offer { get; private set; }
-
-        public Invoice(double amount, string emittedAt, int status, Offer offer)
+        public Invoice(double amount, DateTime emittedAt, int status, Offer offer)
         {
             this.Amount = amount;
             this.EmittedAt = emittedAt;

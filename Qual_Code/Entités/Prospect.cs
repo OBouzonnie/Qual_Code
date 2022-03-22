@@ -32,7 +32,7 @@ namespace Qual_Code.Entités
         {
              List<Invoice> payedInvoices = this.Invoices.Where(i => i.PayedAt != null).ToList();
 
-            return this.Invoices.Count == payedInvoices.Count ? true : false;
+            return this.Invoices.Count == payedInvoices.Count;
         }
     }
 }
