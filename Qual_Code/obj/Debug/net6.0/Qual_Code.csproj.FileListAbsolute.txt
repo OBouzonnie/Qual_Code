@@ -1,0 +1,15 @@
+C:\CESI\Qual_Code\Qual_Code\bin\Debug\net6.0\Qual_Code.exe
+C:\CESI\Qual_Code\Qual_Code\bin\Debug\net6.0\Qual_Code.deps.json
+C:\CESI\Qual_Code\Qual_Code\bin\Debug\net6.0\Qual_Code.runtimeconfig.json
+C:\CESI\Qual_Code\Qual_Code\bin\Debug\net6.0\Qual_Code.dll
+C:\CESI\Qual_Code\Qual_Code\bin\Debug\net6.0\ref\Qual_Code.dll
+C:\CESI\Qual_Code\Qual_Code\bin\Debug\net6.0\Qual_Code.pdb
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.csproj.AssemblyReference.cache
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.GeneratedMSBuildEditorConfig.editorconfig
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.AssemblyInfoInputs.cache
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.AssemblyInfo.cs
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.csproj.CoreCompileInputs.cache
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.dll
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\ref\Qual_Code.dll
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.pdb
+C:\CESI\Qual_Code\Qual_Code\obj\Debug\net6.0\Qual_Code.genruntimeconfig.cache
